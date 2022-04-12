@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App de podomoro</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="time">00:00</p>
+      <p class="subtitle">Terminar codigo</p>
+      <div class="container__input">
+        <form class="container__form">
+          <input
+            type="text"
+            name="task"
+            id="task"
+            class="container__form--task"
+            autocomplete="off"
+          />
+          <button type="submit" class="btn">Agregar tarea</button>
+        </form>
+      </div>
+      <div class="container__tasks"></div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
